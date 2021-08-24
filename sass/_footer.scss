@@ -1,0 +1,145 @@
+footer {
+	background: #005c45 !important;
+	color: white;
+	padding: 40px 20px 20px;
+	font-size: 14px;
+	line-height: 1.7;
+	.list-cat {
+		a {
+			color: #fff;
+			font-size: 14px;
+			&:hover {
+				color: #787070;
+			}
+		}
+		span {
+			float: left;
+			text-align: left;
+		}
+	}
+	.footer-title {
+		font-size: 20px;
+		font-weight: bold;
+		text-align: left;
+		margin: 5px 0 7px;
+	}
+	.footer-logo-wrapper {
+		text-align: center;
+		.footer-logo {
+			img {
+				padding: 10px;
+				max-height: 126px;
+				border: 3px dotted #fff;
+			}
+		}
+		.desc {
+			margin: auto;
+		}
+	}
+}
+.footer-info {
+	padding: 40px 0 30px;
+	background: #37434d;
+	.divider {
+		width: 40px;
+		background: #1a8db1;
+	}
+	h3 {
+		font-size: 13px;
+		font-weight: bold;
+		text-transform: uppercase;
+	}
+	.view-fast {
+		h4 {
+			font-size: 12px;
+		}
+	}
+	.contact-info {
+		.company {
+			margin-top: 1.14rem;
+		}
+		.address {
+			margin-top: 3px;
+			margin-top: 0.2rem;
+			font-size: 11px;
+			span {
+				color: #919faa;
+				font-size: 15px;
+			}
+		}
+		.phone {
+			margin-top: 0.2rem;
+			font-size: 11px;
+			span {
+				color: #919faa;
+				font-size: 15px;
+			}
+		}
+		.hotline {
+			margin-top: 0.2rem;
+			font-size: 11px;
+			span {
+				color: #919faa;
+				font-size: 15px;
+			}
+		}
+		.email {
+			margin-top: 0.2rem;
+			font-size: 11px;
+			span {
+				color: #919faa;
+				font-size: 15px;
+			}
+		}
+	}
+	.subscribe-email {
+		.message {
+			margin-top: 1.14rem;
+		}
+		.subscribe {
+			position: relative;
+			margin-top: 1.14rem;
+			input {
+				width: calc(100% - 12px);
+				border: 0;
+				padding-left: 12px;
+				background: #4c5b68;
+				&::-webkit-input-placeholder {
+					color: #a5a597;
+					font-size: 12px;
+				}
+				&::-moz-placeholder {
+					color: #a5a597;
+					font-size: 12px;
+				}
+				&:-ms-input-placeholder {
+					color: #a5a597;
+					font-size: 12px;
+				}
+				&:-moz-placeholder {
+					color: #a5a597;
+					font-size: 12px;
+				}
+			}
+			img {
+				position: absolute;
+				top: 0;
+				right: 0;
+				width: 40px;
+				height: 35px;
+				padding: 7px 10px;
+				background: #2f75eb;
+			}
+		}
+	}
+}
+.footer-copyright {
+	margin-top: -20px;
+	background: #4f5f6c;
+	line-height: 24px;
+	font-size: 10px;
+	color: #919faa;
+	span {
+		color: white;
+	}
+}

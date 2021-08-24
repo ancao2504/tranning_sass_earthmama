@@ -1,0 +1,33 @@
+#store .store-content .store-list .store-card {
+    padding-bottom: 30px;
+  
+    h3 {
+      font-size: 16px;
+      font-weight: 500;
+      font-style: italic;
+    }
+  
+    address {
+      font-style: initial;
+    }
+  
+    .map {
+      border: 1px solid #000;
+      margin: 5px;
+      padding: 0;
+      height: 425px;
+      width: 425px;
+    }
+  }
+  
+  @media (max-width: 767px) {
+    #store .store-content .store-list .store-card .map {
+      width: 100%;
+      height: auto;
+  
+      iframe {
+        max-width: 100%;
+        height: auto;
+      }
+    }
+  }

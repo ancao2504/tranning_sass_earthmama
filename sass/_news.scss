@@ -1,0 +1,135 @@
+#news.news-list .news-card {
+    h2 {
+      font-size: 28px;
+  
+      a {
+        color: #7d705d;
+      }
+  
+      &:hover a {
+        color: #333;
+      }
+    }
+  
+    .postmetadata {
+      font-size: 14px;
+      clear: both;
+      margin: 10px 0;
+  
+      span {
+        a {
+          color: #b2462d;
+        }
+  
+        &:hover a {
+          color: #333;
+        }
+      }
+    }
+  
+    .wrapper-content {
+      max-width: 705px;
+  
+      .boximg {
+        min-height: 180px;
+        max-height: 250px;
+        overflow: hidden;
+      }
+  
+      .brief {
+        margin: 0;
+        position: relative;
+        font-size: 14px;
+  
+        .concat {
+          position: relative;
+          display: inline-block;
+          word-wrap: break-word;
+          overflow: hidden;
+          max-height: 82px;
+  
+          /* (Number of lines you want visible) * (line-height) */
+  
+          line-height: 1.5;
+        }
+  
+        &::after {
+          content: "  [...]";
+          position: absolute;
+          right: -12px;
+          bottom: 5px;
+        }
+      }
+  
+      .view-more {
+        font-style: italic;
+  
+        a {
+          color: #b2462d;
+        }
+  
+        &:hover a {
+          color: #333;
+        }
+      }
+    }
+  
+    .top-of-page {
+      font-size: 12px;
+      line-height: 10px;
+      text-align: right;
+      margin-bottom: 25px;
+      position: relative;
+      max-width: 750px;
+  
+      &.divider {
+        overflow: visible;
+      }
+  
+      a.back-to-top {
+        color: #b2462d;
+        height: 20px;
+        position: absolute;
+        right: 0;
+        top: -12px;
+        border: 0;
+        outline: 0;
+        cursor: pointer;
+      }
+  
+      &:hover {
+        color: #333;
+      }
+    }
+  }
+  
+  #news-detail {
+    margin-top: 25px;
+    padding-bottom: 20px;
+  
+    h1.title-news {
+      color: #2e2c28;
+      font-size: 26px;
+      margin: 0;
+    }
+  
+    .single-postmetadata {
+      padding: 20px 0;
+  
+      .postmetadata {
+        font-size: 14px;
+        clear: both;
+        margin: 20px 0;
+  
+        span {
+          a {
+            color: #b2462d;
+          }
+  
+          &:hover a {
+            color: #333;
+          }
+        }
+      }
+    }
+  }

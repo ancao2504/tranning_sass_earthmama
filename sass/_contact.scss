@@ -1,0 +1,110 @@
+#contact {
+    .contact-info {
+      h2 {
+        margin-bottom: 25px;
+        padding-left: 10px;
+        font-size: 26px;
+        color: black;
+      }
+  
+      table {
+        font-size: 16px;
+  
+        tr {
+          padding-bottom: 7px;
+  
+          th, td {
+            padding: 0 10px;
+          }
+  
+          th {
+            width: 100px;
+            vertical-align: top;
+          }
+  
+          td {
+            vertical-align: top;
+            padding: 0 10px;
+  
+            p {
+              margin: 0;
+              padding: 0;
+  
+              &:last-child {
+                padding-bottom: 10px;
+              }
+            }
+          }
+        }
+      }
+    }
+  
+    .contact-form {
+      h2 {
+        margin-bottom: 25px;
+        font-size: 26px;
+        color: black;
+      }
+  
+      form {
+        .input {
+          margin-bottom: 10px;
+  
+          &:last-child {
+            margin-top: 25px;
+            text-align: center;
+  
+            .btn, .btn-large {
+              width: 180px;
+              height: 40px;
+              margin: 0 auto;
+              padding: 0 40px;
+              background: #f18609;
+              text-align: center;
+              text-transform: unset;
+              color: white;
+              font-weight: bold;
+              font-size: 20px;
+            }
+          }
+  
+          label {
+            font-size: 100%;
+            font-weight: bold;
+            color: inherit;
+          }
+  
+          input, textarea {
+            border-color: #b7b7b7 #e8e8e8 #e8e8e8 #b7b7b7;
+            border-style: solid;
+            border-width: 1px;
+            width: 100%;
+            margin: 0;
+            padding: 5px;
+            font-size: 1.1em;
+            color: #333;
+            clear: both;
+            display: block;
+            height: inherit;
+          }
+  
+          input {
+            width: calc(100% - 12px);
+          }
+        }
+  
+        .btn-send input[type=submit] {
+          border-color: #fff #999 #999 #fff;
+          padding: 5px 25px;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+  
+  @media (max-width: 768px) {
+    #contact .contact-form form input {
+      width: 100% !important;
+      padding: 5px 0;
+    }
+  }

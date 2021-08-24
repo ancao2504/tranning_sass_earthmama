@@ -1,0 +1,37 @@
+.home-jcarousel {
+  padding: 10px;
+  border: 1px solid #ccc;
+  background: #f3f3f3;
+}
+.home-jcarousel .owl-carousel {
+position: relative;
+}
+.owl-stage-outer {
+overflow: hidden;
+}
+.owl-item {
+display: inline-block;
+}
+.owl-item img {
+  width: 100%;
+  max-width: 200px;
+  height: 100%;
+  max-height: 150px;
+  overflow: hidden;
+}
+.owl-dots {
+display: none;	
+}
+.owl-theme .owl-nav {
+position: absolute;
+top: 30%;
+width: 100%;
+}
+
+.owl-prev {
+float: left;
+}
+
+.owl-next {
+float: right;
+} 

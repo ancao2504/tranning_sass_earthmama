@@ -1,0 +1,43 @@
+/* SEARCH */
+.search .search-wrapper div input {
+    background:white;
+    padding:0 15px;
+    border:none;
+  }
+  
+  .search .search-wrapper div button {
+    background:#b71515;
+    color:white;
+    border:none;
+    height:36px;
+  }
+  
+  .search .search-wrapper #fastmenu .title {
+    float:left;
+    color:white;
+  }
+  
+  .search .search-wrapper #fastmenu li {
+    display:inline-block;
+    color:white;
+  }
+  
+  .search .search-wrapper #fastmenu li a {
+    color:white;
+  }
+  
+  .search .search-wrapper #fastmenu li a:hover {
+    color:red;
+  }
+  
+  .search .search-wrapper #fastmenu li:before {
+    content:"|";
+    display:inline-block;
+    margin:0 5px;
+  }
+  
+  .search .search-wrapper #fastmenu li:first-child:before {
+    content:"";
+    display:inline-block;
+    margin:0 5px;
+  }

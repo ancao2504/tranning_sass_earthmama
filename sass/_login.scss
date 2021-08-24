@@ -1,0 +1,102 @@
+#login .login-content {
+    h2 {
+      color: #2e2c28;
+      font-size: 24px;
+    }
+  
+    form {
+      border: 1px solid #d3ced2;
+      padding: 20px;
+      margin: 2em 0;
+      text-align: left;
+      border-radius: 5px;
+  
+      input {
+        box-sizing: border-box;
+        width: 100%;
+        margin: 0;
+        outline: 0;
+        line-height: 1;
+        border: 1px solid #ddd9d9;
+        padding: 6px;
+        color: #a4a4a4;
+      }
+  
+      label.remember-password {
+        position: relative;
+  
+        span {
+          margin-left: 30px;
+        }
+  
+        [type="checkbox"] {
+          &:not(:checked), &:checked {
+            top: 15%;
+            margin-left: 10px;
+            position: absolute;
+            left: 0;
+            opacity: 1;
+          }
+        }
+      }
+  
+      input[type="submit"] {
+        display: inline-block;
+        width: auto;
+        font-size: 100%;
+        margin: 0;
+        line-height: 1;
+        cursor: pointer;
+        position: relative;
+        text-decoration: none;
+        overflow: visible;
+        padding: .618em 1em;
+        font-weight: 700;
+        border-radius: 3px;
+        left: auto;
+        color: #515151;
+        background-color: #ebe9eb;
+        border: 0;
+        white-space: nowrap;
+        box-shadow: none;
+        text-shadow: none;
+      }
+    }
+  
+    .login-wrapper, .register-wrapper {
+      padding: 15px;
+    }
+  
+    .lost-password {
+      padding: 5px 0;
+      margin: 0 0 5px;
+      text-align: left;
+  
+      a {
+        color: #b2462d;
+      }
+  
+      &:hover a {
+        color: #333;
+      }
+    }
+  
+    .forgot-password form {
+      border: none;
+      margin: 0;
+      padding: 0;
+  
+      label {
+        color: #7d705d;
+        display: block;
+      }
+  
+      input {
+        max-width: 400px;
+        margin-top: 10px;
+        box-shadow: inset 0 1px 4px 0 rgba(0, 0, 0, 0.1);
+        -webkit-box-shadow: inset 0 1px 4px 0 rgba(0, 0, 0, 0.1);
+        -moz-box-shadow: inset 0 1px 4px 0 rgba(0, 0, 0, 0.1);
+      }
+    }
+  }
